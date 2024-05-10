@@ -195,7 +195,7 @@ if torch.cuda.is_available():
     num_episodes = 600
 else:
     print("Using CPU")
-    num_episodes = 50
+    num_episodes = 300
 
 for i_episode in range(num_episodes):
     # Initialize the environment and get its state
